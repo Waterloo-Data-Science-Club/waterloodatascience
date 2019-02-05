@@ -79,10 +79,10 @@ p {
 
 
 .logo{
-  height: 6em;
-  width: 6em;
+  height: 7em;
+  width: 7em;
   display: inline-block;
-  margin-left: 26%;
+/*  margin-left: 26%;*/
 }
 
 .container{
@@ -91,7 +91,6 @@ p {
 }
 
 .nav-bar {
-  width: 70%;
   display: flex;
   justify-content: flex-end;
   padding: 0 2em;
