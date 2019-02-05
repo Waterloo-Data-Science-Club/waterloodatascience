@@ -78,16 +78,16 @@ p {
 }
 
 
+/*NAV STYLES*/
+.container{
+  height: 5em;
+  white-space: nowrap;
+}
+
 .logo{
   height: 7em;
   width: 7em;
   display: inline-block;
-/*  margin-left: 26%;*/
-}
-
-.container{
-  height: 5em;
-  white-space: nowrap;
 }
 
 .nav-bar {
