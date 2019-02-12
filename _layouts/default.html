@@ -2,24 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/styles/sanitize.css">
     <link rel="stylesheet" href="/styles/style_posts.css">
     {% include google-analytics.html %}
+    {% include mathjax.html %}
   </head>
   <body>
-
-    <nav class="nav-bar">
-      <section id="title-panel" class="section">
-        <h1 class="title-text"><span>UW</span> DATA SCIENCE CLUB.</h1>
-<!--         <p>_</p> -->
-      </section>
-      <ul class="nav-list">
-        <li><a class="nav-link" href="#">Wiki</a></li>
-        <li><a class="nav-link" href="#">About</a></li>
-        <li><a class="nav-link" href="/blog.html">Blog</a></li>
-      </ul>
-    </nav>
+    <a class='small-screen-logo' href='/'><img class='logo' src='/assets/logo.png'></a>
+    <div class='container'>
+      <a class='big-screen-logo' href='/'><img class='logo' src='/assets/logo.png'></a>
+      <div class='nav-box' style='display: inline-block; float: right;'>
+        <nav class="nav-bar">
+          <ul class="nav-list">
+            <li><a class="nav-link" href="#">Wiki</a></li>
+            <li><a class="nav-link" href="#">About</a></li>
+            <li><a class="nav-link" href="#">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
 
     <div class='post-body'>
       <section>
