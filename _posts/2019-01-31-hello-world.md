@@ -24,4 +24,5 @@ plt.plot(x, y)
 plt.show() 
 ```
 
-![Sine wave](/assets/sine.jpg)
+
+<img src='/assets/sine.jpg' style='width:100%'>

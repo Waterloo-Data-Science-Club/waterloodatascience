@@ -22,6 +22,7 @@ body {
 /*POST BODY STYLES*/
 /*------*/
 .post-body{
+
   border-radius: 5px;
   background: black;
 /*  background: white;*/
@@ -80,7 +81,7 @@ p {
 
 /*NAV STYLES*/
 .container{
-  height: 5em;
+/*  height: 5em;*/
   white-space: nowrap;
 }
 
@@ -127,14 +128,49 @@ p {
   background: #fff;
 }
 
+.small-screen-logo{
+  display: none;
+  margin: 0 auto;
+}
+
+
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
 }
 
-@media (max-width: 41em) {
+@media screen and (max-width: 41em) {
   .post-body{
     width:  95%;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  .big-screen-logo{
+    display: none;
+  }
+
+  .small-screen-logo{
+    display: block ;
+    width: 50%;
+    margin-left: 30vw;
+  }
+
+  .nav-box{
+    border-bottom: 3px dashed white;
+    margin-bottom: 5%;
+  }
+
+  .nav-list{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav-bar{
+    width: 450px;
+/*    border-bottom: 3px dotted white;
+    margin-bottom: 5%;*/
   }
 
 }
