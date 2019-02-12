@@ -26,3 +26,6 @@ plt.show()
 
 
 <img src='/assets/sine.jpg' style='width:100%'>
+
+
+$$\sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6}$$
