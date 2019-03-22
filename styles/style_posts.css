@@ -18,7 +18,19 @@ body {
 /*  font-size: 100%;*/
 }
 
+a {
+  color: rgb(65, 190, 204);
+}
 
+table, th, td {
+  border-top: 1px solid #f5f5f5;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+th, td {
+  padding: 10px 0 10px 0;
+  text-align: left;
+}
 /*POST BODY STYLES*/
 /*------*/
 .post-body{
@@ -32,6 +44,10 @@ body {
 }
 
 .post-body p{
+  color: #f5f5f5;
+}
+
+.post-body h2 {
   color: #f5f5f5;
 }
 
