@@ -1,7 +1,10 @@
-.page {
+.wrapper {
   display: flex;
   flex-wrap: wrap;
   padding: 2em;
+  max-width: 864px;
+  margin: 0 auto;
+  width: 100%
 }
 
 .section {
@@ -12,19 +15,9 @@
 
 body {
   background: black;
+  color: white;
   font-family: arial; 
   font-size: 100%;
-}
-
-.club-higlight {
-  text-align: left;
-}
-
-#info-panel {
-  font-weight: bolder; 
-  font-size: 1.2em;
-  line-height: 0.5;
-  text-align: left;
 }
 
 p {
@@ -34,17 +27,18 @@ p {
 #title-panel {
   font-weight: bold;
   font-size: 0.8em;
-  line-height: 0.25;
-  margin-bottom: 4em;
 }
 
 .title-text {
   color: white;
   font-weight: bolder; 
   text-align: left;
+  margin: 0;
+  line-height: 1.1;
 }
 
 .nav-bar {
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   padding: 0 2em;
