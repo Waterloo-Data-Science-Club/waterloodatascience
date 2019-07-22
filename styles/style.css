@@ -24,6 +24,18 @@ p {
   color: white; 
 }
 
+.horizontal-rule {
+  display: block;
+  width: 100%;
+  background: white;
+  border: 1px solid white;
+}
+
+#blog-header { 
+  font-size: 1.8em;
+  margin: 0.1em 0;
+}
+
 #title-panel {
   font-weight: bold;
   font-size: 0.8em;
@@ -75,6 +87,21 @@ p {
   background: #fff;
 }
 
+.post-preview {
+  margin: 1.5em 0;
+}
+
+.post-date {
+  color: #AAA;
+  font-size: 1em;
+  margin: 0;
+}
+
+.post-title {
+  margin: 0;
+  font-size: 1.2em;
+}
+
 /* Tablet Styles */
 @media only screen and (min-width: 768px) and (max-width: 960px), (orientation: landscape) {
   #title-panel {
@@ -88,6 +115,17 @@ p {
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
+  .post-preview {
+    display: flex;
+    margin: 1em 0em;
+  }
+
+  .post-date {
+    order: -1;
+    margin-right: 1em;
+    font-size: 1.2em;
+  }
+
   #title-panel {
     font-size: 1.6em;
   }
