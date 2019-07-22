@@ -52,8 +52,8 @@ p {
 .nav-bar {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
-  padding: 0 2em;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-list li {
@@ -115,6 +115,11 @@ p {
   margin-top: 2em;
 }
 
+.logo {
+  font-size: 2em;
+  font-weight: 600;
+}
+
 /* Tablet Styles */
 @media only screen and (min-width: 768px) and (max-width: 960px), (orientation: landscape) {
   #highlights-panel {
@@ -168,6 +173,6 @@ p {
   }
 
   .nav-bar {
-    padding: 1em 2em;
+    padding: 1em 0;
   }
 }
