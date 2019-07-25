@@ -1,8 +1,16 @@
----
-layout: default
----
-<div class='post-body'>
-  <section>
-    {{ content }}
-  </section>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include mathjax.html %}
+    {% include head-tags.html %}
+    <link rel="stylesheet" href="/styles/style_posts.css" />
+</head>
+<body>
+    <div class="wrapper">
+    {% include navigation.html %}
+        <article>
+        {{ content }}
+        </article>
+    </div>
+</body>
+</html>
