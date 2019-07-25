@@ -141,6 +141,15 @@ p {
   transition: 0.5s;
 }
 
+.post-link {
+  text-decoration: none;
+}
+
+.post-link:visited {
+  color: white;
+  text-decoration: none;
+}
+
 #overlay-nav > .close-btn {
   position: absolute;
   top: 2.5em;
@@ -165,7 +174,7 @@ p {
 }
 
 /* Tablet Styles */
-@media only screen and (min-width: 768px) and (max-width: 960px), (orientation: landscape) {
+@media only screen and (min-width: 768px) {
   .nav-list {
     display: inline;
   }
