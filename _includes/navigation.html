@@ -1,9 +1,23 @@
+<script>
+  function openNav() {
+    document.getElementById('overlay-nav').style.height = "100%"; 
+  }
+
+  function closeNav() {
+    document.getElementById('overlay-nav').style.height = "0%"; 
+  }
+</script>
+
 <nav class="nav-bar">
   <p class="logo">UW DSC.</p>
   <ul class="nav-list">
-    <li><a class="nav-link" href="#">Wiki</a></li>
-    <li><a class="nav-link" href="/">About</a></li>
-    <li><a class="nav-link" href="/calendar">Calendar</a></li>
-    <li><a class="nav-link" href="#">Blog</a></li>
+    {% include nav-links.html %}
   </ul>
+  <a class="menu-btn" href="javascript:void(0)" onclick="openNav()"><img src="assets/menu.svg" alt=""/></a>
 </nav>
+<div id="overlay-nav">
+  <a class="close-btn" href="javascript:void(0)" onclick="closeNav()"><img src="assets/close.svg" alt=""/></a>
+  <ul class="nav-menu">
+    {% include nav-links.html %}
+  </ul>
+</div>
