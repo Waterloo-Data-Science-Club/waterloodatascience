@@ -1,7 +1,7 @@
 .wrapper {
   display: flex;
   flex-wrap: wrap;
-  padding: 2em;
+  padding: 0em 2em;
   max-width: 864px;
   margin: 0 auto;
   width: 100%
@@ -102,7 +102,7 @@ p {
 }
 
 #info-block {
-  margin: 2em 0 3em 0;
+  margin: 3em 0;
 }
 
 #summary-panel > h2 {

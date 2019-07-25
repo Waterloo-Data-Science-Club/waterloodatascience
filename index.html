@@ -1,38 +1,21 @@
 ---
+layout: default
 ---
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="theme-color" content="#000000" />
-  <title>UW Data Science Club</title>
-  <link rel="stylesheet" href="styles/sanitize.css">
-  <link rel="stylesheet" href="styles/style.css">
-  {% include google-analytics.html %}
-</head>
-<body>
-  <div class="wrapper">
-    {% include navigation.html %}
-    <div id="info-block">
-      <section id="highlights-panel">
-        <h1 class="title-text">Workshops.</h1>
-        <h1 class="title-text">Guest Lectures.</h1>
-        <h1 class="title-text">Reading Groups.</h1>
-      </section>
-      <section id="summary-panel">
-        <h2>UW Data Science Club is a community for those who want to learn and talk data science at the University of Waterloo.</h2>
-      </section>
-    </div>
-    <h1 id="blog-header">Recent Blog Posts</h1>
-    <hr class="horizontal-rule"/>
-    {% for post in site.posts limit:5 %}
-      <div class="post-preview">
-        <h1 class="post-title">{{ post.title }}</h1>
-        <p class="post-date">{{ post.date | date: "%Y-%m-%d" }}</p>
-      </div>
-    {% endfor %}
+<div id="info-block">
+  <section id="highlights-panel">
+    <h1 class="title-text">Workshops.</h1>
+    <h1 class="title-text">Guest Lectures.</h1>
+    <h1 class="title-text">Reading Groups.</h1>
+  </section>
+  <section id="summary-panel">
+    <h2>UW Data Science Club is a community for those who want to learn and talk data science at the University of Waterloo.</h2>
+  </section>
+</div>
+<h1 id="blog-header">Recent Blog Posts</h1>
+<hr class="horizontal-rule"/>
+{% for post in site.posts limit:5 %}
+  <div class="post-preview">
+    <h1 class="post-title">{{ post.title }}</h1>
+    <p class="post-date">{{ post.date | date: "%Y-%m-%d" }}</p>
   </div>
-</body>
-</html>
+{% endfor %}
