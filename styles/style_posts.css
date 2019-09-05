@@ -1,4 +1,4 @@
-@import url(vim.css);
+@import url(railscasts.css);
 
 .page {
   display: flex;
@@ -32,11 +32,6 @@
 } 
 
 /*CODE STYLE*/
-.highlighter-rouge{
-  width: 90%;
-  margin: 0 auto;
-}
-
 .highlight{
   padding: 1% 2% 1% 2%;
   border-radius: 5px;
