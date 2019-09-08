@@ -1,17 +1,5 @@
 @import url(railscasts.css);
 
-.page {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 2em;
-}
-
-.section {
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-}
-
 /*POST BODY STYLES*/
 /*------*/
 .post-body p {
@@ -29,7 +17,7 @@
 
 .post-content {
   padding: 0 5% 4% 5%;
-} 
+}
 
 /*CODE STYLE*/
 .highlight{
