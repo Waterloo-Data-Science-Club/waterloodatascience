@@ -16,12 +16,12 @@
 body {
   background: black;
   color: white;
-  font-family: arial; 
+  font-family: arial;
   font-size: 100%;
 }
 
 p {
-  color: white; 
+  color: white;
 }
 
 .horizontal-rule {
@@ -31,7 +31,7 @@ p {
   border: 1px solid white;
 }
 
-#blog-header { 
+#blog-header {
   font-size: 1.8em;
   margin: 0.1em 0;
 }
@@ -65,7 +65,7 @@ p {
   font-weight: bold;
   text-decoration: none;
   transition: color .3s ease;
-  position: relative; 
+  position: relative;
 }
 
 .nav-link:after {
@@ -182,6 +182,19 @@ p {
 
 /* Tablet Styles */
 @media only screen and (min-width: 768px) {
+  #highlights-panel {
+    font-size: 1.2em;
+    width: 50%;
+  }
+
+  #summary-panel {
+    width: 50%;
+  }
+
+  #info-block {
+    display: flex;
+  }
+
   .wrapper {
     padding: 3em 2em;
   }
@@ -218,28 +231,10 @@ p {
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
-  .post-preview {
-    display: flex;
-    margin: 1em 0em;
-  }
-
   .post-date {
     order: -1;
     margin-right: 1em;
     font-size: 1.2em;
-  }
-
-  #highlights-panel {
-    font-size: 1.2em;
-    width: 50%;
-  }
-
-  #summary-panel {
-    width: 50%;
-  }
-
-  #info-block {
-    display: flex;
   }
 
   .page {
