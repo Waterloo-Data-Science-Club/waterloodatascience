@@ -1,0 +1,19 @@
+.qa {
+  margin-top: 3em;
+}
+
+.qa > h2 {
+  margin: 0;
+}
+
+.answer {
+  margin: 1em 0;
+}
+
+.link {
+  color: #e05d8b;
+}
+
+.link:visited {
+  color: #e05d8b;
+}

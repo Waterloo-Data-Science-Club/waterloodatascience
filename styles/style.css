@@ -53,6 +53,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 3em;
 }
 
 .nav-list {
@@ -98,10 +99,6 @@ p {
 .post-title {
   margin: 0;
   font-size: 1.2em;
-}
-
-#info-block {
-  margin-top: 3em;
 }
 
 #summary-panel > h2 {

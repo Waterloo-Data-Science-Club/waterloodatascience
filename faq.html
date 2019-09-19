@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h1>Frequently Asked Questions</h1>
+<hr class="horizontal-rule"/>
+{% for item in site.data.faq %}
+<section class="qa">
+  <h2 class="question">{{ item.question }}</h2>
+  <p class="answer">{{ item.answer }}</p>
+  <a class="link" href="{{ item.link }}">{{ item.link_title }}</a>
+</section>
+{% endfor %}
