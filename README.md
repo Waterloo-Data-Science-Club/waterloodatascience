@@ -14,7 +14,9 @@ git clone https://github.com/joannalu97/waterloodatascience
 cd waterloodatascience
 bundle install
 ```
-You can then view your site locally by running `bundle exec jekyll serve`.
+You can then view your site locally by running `bundle exec jekyll serve`
+
+or simply run the script `serve.sh`
 
 #### Mobile Testing
 
